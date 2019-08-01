@@ -45,11 +45,14 @@
 
     <!-- Corresponds to color balance level of zero, this is the native
          display temperature -->
-    <integer name="config_dayColorTemperature">8000</integer>
-    <integer name="config_nightColorTemperature">5000</integer>
+    <integer name="config_dayColorTemperature">6400</integer>
+    <integer name="config_nightColorTemperature">4500</integer>
 
     <!-- For high brightness mode -->
     <integer name="config_outdoorAmbientLux">20000</integer>
+
+    <!-- Turn on LiveDisplay auto mode by default -->
+    <integer name="config_defaultLiveDisplayMode">2</integer>
 
     <!-- Disable this by default, since it's actually using the QC FOSS algorithm for
          OLED displays and can cause a bit of discoloration. Reinvestigate after tuning -->
